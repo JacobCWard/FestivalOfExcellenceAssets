@@ -37,7 +37,7 @@ function SendConfirmationMail(e) {
         mentorLastName = e.namedValues["Mentor Last Name"].toString();
         mentorEmail = e.namedValues["Mentor Email Address"].toString();
         facStaffRank = e.namedValues["Faculty/Staff Rank"].toString();
-        multiplePresenters = e.namedValues["Are there multiple presenters?"].toString();
+        multiplePresenters = e.namedValues["Are there multiple authors/presenters?"].toString(); // <- Make sure everything matches!
         ensembleName = e.namedValues["Name of Ensemble"].toString();
         coPresenterNames = e.namedValues["Co-Presenter Names"].toString();
         presentationFormat = e.namedValues["Preferred Presentation Format"].toString();
