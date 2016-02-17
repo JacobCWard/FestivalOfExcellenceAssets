@@ -77,7 +77,7 @@ function SendConfirmationMail(e) {
         "<p><strong>First Name</strong> | " + firstName + "<br>" +
         "<strong>Last Name</strong> | " + lastName + "<br>" +
         "<strong>Email Address</strong> | " + emailAddress + "<br>" +
-        "<strong>T-Number</strong> | " + tNumber + "<br>" +
+        "<strong>T-Number</strong> | " + "Txxxxxxxx" + "<br>" +
         "<strong>Academic Rank</strong> | " + academicRank + "<br>" +
         "<strong>College/Division Affiliation</strong> | " + collegeAffiliation + "</p>";
 
